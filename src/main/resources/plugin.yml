@@ -1,0 +1,4 @@
+name: RemoveBowls
+version: ${project.version}
+main: me.noodles.soup.Main
+authors: [BGHDDevelopment]

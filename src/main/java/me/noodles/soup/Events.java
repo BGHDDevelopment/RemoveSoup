@@ -9,7 +9,6 @@ import org.bukkit.inventory.ItemStack;
 
 public class Events implements Listener {
 
-
     @EventHandler
     public void useSoup(final PlayerInteractEvent e) {
         if (e.getItem() == null) {
@@ -18,7 +17,6 @@ public class Events implements Listener {
         Player p = e.getPlayer();
         final ItemStack bowl = new ItemStack(Material.BOWL);
         p.getInventory().remove(bowl);
-
     }
 
 }
