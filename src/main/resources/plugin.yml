@@ -1,4 +1,4 @@
-name: RemoveBowls
-version: ${project.version}
-main: me.noodles.soup.Main
-authors: [BGHDDevelopment]
+name: RemoveSoupBowls
+version: 0.2
+main: com.bghddevelopment.soup.RemoveSoup
+author: BGHDDevelopmentLLC
